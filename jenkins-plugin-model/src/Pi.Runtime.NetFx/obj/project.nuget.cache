@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "o+Ii+H43U1c=",
+  "success": true,
+  "projectFilePath": "/home/kaydarkey/Amalitech/tutorials/Jenkins_Upgradev3-master/jenkins-plugin-model/src/Pi.Runtime.NetFx/Pi.Runtime.NetFx.csproj",
+  "expectedPackageFiles": [
+    "/home/kaydarkey/.nuget/packages/powerargs/3.6.0/powerargs.3.6.0.nupkg.sha512",
+    "/home/kaydarkey/.nuget/packages/prometheus-net/3.4.0/prometheus-net.3.4.0.nupkg.sha512",
+    "/home/kaydarkey/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
+    "/home/kaydarkey/.nuget/packages/microsoft.netcore.app.ref/8.0.13/microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
+    "/home/kaydarkey/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.13/microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512",
+    "/home/kaydarkey/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.13/microsoft.netcore.app.host.linux-x64.8.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <!-- Target .NET Framework 4.8 to support legacy ASP.NET and WCF types -->
+    <TargetFramework>net48</TargetFramework>
+    <!-- Set the language version to 8.0 to support nullable reference types -->
+    <LangVersion>8.0</LangVersion>
+    <!-- Prevent auto-generation of AssemblyInfo to avoid duplicate attributes -->
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Pi.Wcf</RootNamespace>
+    <AssemblyName>Pi.Wcf</AssemblyName>
+    <Nullable>enable</Nullable>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <UseIISExpress>true</UseIISExpress>
+  </PropertyGroup>
+
+  <!-- Add explicit references for legacy assemblies -->
+  <ItemGroup>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+
+  <!-- Content files that should be copied to the output -->
+  <ItemGroup>
+    <Content Update="Web.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Global.asax">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="PiService.svc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Web.Debug.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Web.Release.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <!-- Project reference -->
+  <ItemGroup>
+    <ProjectReference Include="..\\Pi.Math\\Pi.Math.csproj" />
+  </ItemGroup>
+
+  <!-- Package references -->
+  <ItemGroup>
+    <!-- Using the correct package ID; ensure version 3.4.0 is available for net48 -->
+    <PackageReference Include="prometheus-net" Version="3.4.0" />
+  </ItemGroup>
+
+  <!-- Visual Studio Web Project settings -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55279</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:55279/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl></CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

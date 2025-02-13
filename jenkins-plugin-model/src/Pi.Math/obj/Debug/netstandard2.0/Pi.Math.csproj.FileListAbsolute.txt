@@ -1,0 +1,10 @@
+/home/kaydarkey/Amalitech/tutorials/Jenkins_Upgradev3-master/jenkins-plugin-model/src/Pi.Math/bin/Debug/netstandard2.0/Pi.Math.deps.json
+/home/kaydarkey/Amalitech/tutorials/Jenkins_Upgradev3-master/jenkins-plugin-model/src/Pi.Math/bin/Debug/netstandard2.0/Pi.Math.dll
+/home/kaydarkey/Amalitech/tutorials/Jenkins_Upgradev3-master/jenkins-plugin-model/src/Pi.Math/bin/Debug/netstandard2.0/Pi.Math.pdb
+/home/kaydarkey/Amalitech/tutorials/Jenkins_Upgradev3-master/jenkins-plugin-model/src/Pi.Math/obj/Debug/netstandard2.0/Pi.Math.csproj.AssemblyReference.cache
+/home/kaydarkey/Amalitech/tutorials/Jenkins_Upgradev3-master/jenkins-plugin-model/src/Pi.Math/obj/Debug/netstandard2.0/Pi.Math.GeneratedMSBuildEditorConfig.editorconfig
+/home/kaydarkey/Amalitech/tutorials/Jenkins_Upgradev3-master/jenkins-plugin-model/src/Pi.Math/obj/Debug/netstandard2.0/Pi.Math.AssemblyInfoInputs.cache
+/home/kaydarkey/Amalitech/tutorials/Jenkins_Upgradev3-master/jenkins-plugin-model/src/Pi.Math/obj/Debug/netstandard2.0/Pi.Math.AssemblyInfo.cs
+/home/kaydarkey/Amalitech/tutorials/Jenkins_Upgradev3-master/jenkins-plugin-model/src/Pi.Math/obj/Debug/netstandard2.0/Pi.Math.csproj.CoreCompileInputs.cache
+/home/kaydarkey/Amalitech/tutorials/Jenkins_Upgradev3-master/jenkins-plugin-model/src/Pi.Math/obj/Debug/netstandard2.0/Pi.Math.dll
+/home/kaydarkey/Amalitech/tutorials/Jenkins_Upgradev3-master/jenkins-plugin-model/src/Pi.Math/obj/Debug/netstandard2.0/Pi.Math.pdb

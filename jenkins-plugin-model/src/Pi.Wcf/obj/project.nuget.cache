@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "arP934nOZTI=",
+  "success": true,
+  "projectFilePath": "/home/kaydarkey/Amalitech/tutorials/Jenkins_Upgradev3-master/jenkins-plugin-model/src/Pi.Wcf/Pi.Wcf.csproj",
+  "expectedPackageFiles": [
+    "/home/kaydarkey/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/home/kaydarkey/.nuget/packages/microsoft.netframework.referenceassemblies.net48/1.0.3/microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512",
+    "/home/kaydarkey/.nuget/packages/prometheus-net/3.4.0/prometheus-net.3.4.0.nupkg.sha512",
+    "/home/kaydarkey/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,5 @@
+/home/kaydarkey/Amalitech/tutorials/Jenkins_Upgradev3-master/jenkins-plugin-model/src/Pi.Wcf/obj/Debug/net8.0/Pi.Wcf.csproj.AssemblyReference.cache
+/home/kaydarkey/Amalitech/tutorials/Jenkins_Upgradev3-master/jenkins-plugin-model/src/Pi.Wcf/obj/Debug/net8.0/Pi.Wcf.GeneratedMSBuildEditorConfig.editorconfig
+/home/kaydarkey/Amalitech/tutorials/Jenkins_Upgradev3-master/jenkins-plugin-model/src/Pi.Wcf/obj/Debug/net8.0/Pi.Wcf.AssemblyInfoInputs.cache
+/home/kaydarkey/Amalitech/tutorials/Jenkins_Upgradev3-master/jenkins-plugin-model/src/Pi.Wcf/obj/Debug/net8.0/Pi.Wcf.AssemblyInfo.cs
+/home/kaydarkey/Amalitech/tutorials/Jenkins_Upgradev3-master/jenkins-plugin-model/src/Pi.Wcf/obj/Debug/net8.0/Pi.Wcf.csproj.CoreCompileInputs.cache
